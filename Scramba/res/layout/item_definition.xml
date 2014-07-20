@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/WrapRow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="3dp"
+    android:paddingTop="3dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/lamp" />
+
+    <TextView
+        android:id="@+id/txtDefinition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:lineSpacingExtra="3dp"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:text="acacasc a an jkkh as dşs dnd nad lnjad şnakş djsa ahhd s" />
+
+</TableRow>
